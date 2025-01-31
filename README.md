@@ -13,7 +13,7 @@ This is a public API that returns the following in JSON format:
     "github_url": "https://github.com/Dah-vid/HNG-Backend"
 }
 ```
-It is built with Node JS and Express. You can view our skilled developers here: [HNG Node JS developers for Hire](https://hng.tech/hire/nodejs-developers) 
+It is built with Node JS and Express. You can view our skilled Node JS developers here: [HNG Node JS developers for Hire](https://hng.tech/hire/nodejs-developers) 
 ## Local Development Set-Up Guide
 
 ### Prerequisites
