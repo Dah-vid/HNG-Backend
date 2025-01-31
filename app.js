@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (request, response) => {
     const status = {
-        email_address: "davidtopair@gmail.com",
+        email: "davidtopair@gmail.com",
         current_datetime: new Date().toISOString(),
-        github: "https://github.com/Dah-vid/HNG-Backend"
+        github_url: "https://github.com/Dah-vid/HNG-Backend"
     };
     
     response.json(status);
