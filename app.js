@@ -11,7 +11,7 @@ app.use(
 )
 const PORT = process.env.PORT || 3000;
 
-app.get("/status", (request, response) => {
+app.get("/", (request, response) => {
     const status = {
         email_address: "davidtopair@gmail.com",
         current_datetime: new Date().toISOString(),
