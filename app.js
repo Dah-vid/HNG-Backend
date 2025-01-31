@@ -18,7 +18,7 @@ app.get("/", (request, response) => {
         github: "https://github.com/Dah-vid/HNG-Backend"
     };
     
-    response.send(status);
+    response.json(status);
 });
 
 app.listen(PORT, () => {
