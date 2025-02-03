@@ -19,7 +19,8 @@ app.get("/", (request, response) => {
         //email: "davidtopair@gmail.com",
         current_datetime: new Date().toISOString(),
         github_url: "https://github.com/Dah-vid/HNG-Backend", 
-        num: number
+        num: number,
+        email: email
     };
     
     response.json(status);
