@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (request, response) => {
     const number= request.query.number
-    const number= request.query.number
+    const email= request.query.email
 
     const status = {
         //email: "davidtopair@gmail.com",
