@@ -12,15 +12,14 @@ app.use(
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (request, response) => {
-    const number= request.query.number
-    const email= request.query.email
+    //const number= request.query.number
+    //const email= request.query.email
 
     const status = {
-        //email: "davidtopair@gmail.com",
+        email: "davidtopair@gmail.com",
         current_datetime: new Date().toISOString(),
         github_url: "https://github.com/Dah-vid/HNG-Backend", 
-        num: number,
-        email: email
+        //num: number,
     };
     
     response.json(status);
