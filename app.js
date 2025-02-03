@@ -12,7 +12,7 @@ app.use(
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (request, response) => {
-    const number = request.query.number
+    const number = request.query.name
     const status = {
         email: "davidtopair@gmail.com",
         current_datetime: new Date().toISOString(),
