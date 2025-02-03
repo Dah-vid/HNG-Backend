@@ -20,7 +20,7 @@ app.get("/", (request, response) => {
         current_datetime: new Date().toISOString(),
         github_url: "https://github.com/Dah-vid/HNG-Backend", 
         num: number,
-        email: email,
+        email: email
     };
     
     response.json(status);
